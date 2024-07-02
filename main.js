@@ -7,16 +7,16 @@ function playSong(songName) {
 	// Set the source of the audio element based on the song name
 	switch (songName) {
 		case "hynm":
-			source.src = "songs/hynmfortheweekend.mp3";
+			source.src = "hynmfortheweekend.mp3";
 			break;
 		case "duvet":
-			source.src = "songs/duvvet.mp3";
+			source.src = "duvvet.mp3";
 			break;
 		case "new":
-			source.src = "songs/new.mp3";
+			source.src = "new.mp3";
 			break;
 		case "streams":
-			source.src = "songs/streams.mp3";
+			source.src = "streams.mp3";
 			break;
 		default:
 			source.src = "";
